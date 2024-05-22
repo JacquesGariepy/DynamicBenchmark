@@ -6,3 +6,6 @@
 /Benchmark/obj
 /DynamicBenchmark/obj
 /TesterClass/obj
+/Benchmark/bin
+/DynamicBenchmark/bin
+/TesterClass/bin
