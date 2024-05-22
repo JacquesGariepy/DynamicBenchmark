@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Concrete">
-      <HintPath>..\TesterClass\bin\Release\net8.0\Concrete.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\TesterClass\Concrete.csproj" />
   </ItemGroup>
 
 </Project>

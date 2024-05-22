@@ -16,7 +16,7 @@ The project contains several key classes:
 
 ## Running the Benchmarks
 
-To run the benchmarks, you can execute the project from the command line with the command `dotnet run -c Release`.
+To run the benchmarks, you can execute the DynamicBenchmark project from the command line with the command `dotnet run -c Release`.
 
 ## Benchmark Results
 

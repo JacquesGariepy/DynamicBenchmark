@@ -5,9 +5,14 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicBenchmark", "DynamicBenchmark\DynamicBenchmark.csproj", "{125A66A8-FCA7-439D-8E37-7F2E092DB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concrete", "TesterClass\Concrete.csproj", "{3B6C081D-525E-4ED7-885B-8F46358E4F97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concrete", "TesterClass\Concrete.csproj", "{3B6C081D-525E-4ED7-885B-8F46358E4F97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{9A3609D7-907E-4939-ABBE-4D5A2416CED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Benchmark\Benchmark.csproj", "{9A3609D7-907E-4939-ABBE-4D5A2416CED0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{9ADF2840-3770-4C95-BA25-D15B7E01B024}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

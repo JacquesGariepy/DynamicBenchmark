@@ -5,9 +5,17 @@ namespace Benchmark
 {
     [SimpleJob(RunStrategy.ColdStart, iterationCount: 15)]
     [AllStatisticsColumn]
+    [MemoryDiagnoser]
     public class Benchmark_ConcreteClass
     {
-        private Concrete.ConcreteClass concreteClass = new Concrete.ConcreteClass();
+        private Concrete.ConcreteClass concreteClass;
+
+        [GlobalSetup]
+        public void Setup()
+        {
+            concreteClass = new Concrete.ConcreteClass();
+        }
+
         [Benchmark]
         public void TestDto()
         {
