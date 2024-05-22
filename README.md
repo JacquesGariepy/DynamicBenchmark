@@ -22,23 +22,21 @@ To run the benchmarks, you can execute the DynamicBenchmark project from the com
 
 The benchmark results will be displayed in the console. They are also saved in a PostgreSQL database for further analysis.
 
-## Dependencies
-
-This project uses the BenchmarkDotNet library to perform the benchmarks. You can install this library with the command `dotnet add package BenchmarkDotNet`.
-
 ## Contribution
 
 Contributions to this project are welcome. If you wish to contribute, please create a pull request with your modifications.
 
-# BenchmarkDotNet is the library you use to perform the benchmarks.
-dotnet add package BenchmarkDotNet
+## Dependencies
 
-# Microsoft.Extensions.Configuration is used to load configuration settings from various sources.
-dotnet add package Microsoft.Extensions.Configuration
+### BenchmarkDotNet is the library you use to perform the benchmarks. 
+`dotnet add package BenchmarkDotNet`
 
-# Microsoft.Extensions.Configuration.Json is used to load configuration settings from JSON files.
-dotnet add package Microsoft.Extensions.Configuration.Json
+### Microsoft.Extensions.Configuration is used to load configuration settings from various sources.
+`dotnet add package Microsoft.Extensions.Configuration`
 
-# Npgsql.EntityFrameworkCore.PostgreSQL is used to interact with a PostgreSQL database using Entity Framework Core.
-dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+### Microsoft.Extensions.Configuration.Json is used to load configuration settings from JSON files.
+`dotnet add package Microsoft.Extensions.Configuration.Json`
+
+### Npgsql.EntityFrameworkCore.PostgreSQL is used to interact with a PostgreSQL database using Entity Framework Core.
+`dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL`
 
