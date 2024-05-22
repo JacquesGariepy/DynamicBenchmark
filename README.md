@@ -22,15 +22,13 @@ To run the benchmarks, you can execute the project from the command line with th
 
 The benchmark results will be displayed in the console. They are also saved in a PostgreSQL database for further analysis.
 
-## Dependencies
-
-This project uses the BenchmarkDotNet library to perform the benchmarks. You can install this library with the command `dotnet add package BenchmarkDotNet`.
-
 ## Contribution
 
 Contributions to this project are welcome. If you wish to contribute, please create a pull request with your modifications.
 
-### BenchmarkDotNet is the library you use to perform the benchmarks.
+## Dependencies
+
+### BenchmarkDotNet is the library you use to perform the benchmarks. 
 `dotnet add package BenchmarkDotNet`
 
 ### Microsoft.Extensions.Configuration is used to load configuration settings from various sources.
