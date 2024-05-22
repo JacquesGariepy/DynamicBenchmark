@@ -39,4 +39,6 @@ Contributions to this project are welcome. If you wish to contribute, please cre
 
 ### Npgsql.EntityFrameworkCore.PostgreSQL is used to interact with a PostgreSQL database using Entity Framework Core.
 `dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL`
+![image](https://github.com/JacquesGariepy/DynamicBenchmark/assets/12863398/54220562-cfeb-4efc-91ee-7f89862f54f8)
 
+![image](https://github.com/JacquesGariepy/DynamicBenchmark/assets/12863398/ece20ecc-a972-4b47-a404-5f223bb0b6c1)
