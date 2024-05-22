@@ -12,7 +12,7 @@ The project contains several key classes:
 
 - `DatabaseContext`: This class is used to save the benchmark results in a database.
 
-- `PostgreSQLStrategy`: This class implements the `IDatabaseStrategy` interface to save the benchmark results in a PostgreSQL database.
+- `PostgreSQLStrategy`: This class implements the `IDatabaseStrategy` interface to save the benchmark results in a PostgreSQL database. It is easy to include a strategy for another type of database by implementing the same interface.
 
 ## Running the Benchmarks
 
