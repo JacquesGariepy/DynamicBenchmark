@@ -31,14 +31,14 @@ This project uses the BenchmarkDotNet library to perform the benchmarks. You can
 Contributions to this project are welcome. If you wish to contribute, please create a pull request with your modifications.
 
 ### BenchmarkDotNet is the library you use to perform the benchmarks.
-dotnet add package BenchmarkDotNet
+`dotnet add package BenchmarkDotNet`
 
 ### Microsoft.Extensions.Configuration is used to load configuration settings from various sources.
-dotnet add package Microsoft.Extensions.Configuration
+`dotnet add package Microsoft.Extensions.Configuration`
 
 ### Microsoft.Extensions.Configuration.Json is used to load configuration settings from JSON files.
-dotnet add package Microsoft.Extensions.Configuration.Json
+`dotnet add package Microsoft.Extensions.Configuration.Json`
 
 ### Npgsql.EntityFrameworkCore.PostgreSQL is used to interact with a PostgreSQL database using Entity Framework Core.
-dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+`dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL`
 
